@@ -8,6 +8,7 @@
 
 import UIKit
 import MapKit
+import Alamofire
 
 class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
 
@@ -19,6 +20,7 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
         
         setUpLocationManager()
         updateUserLocation()
+        requestData()
     }
     
     @IBAction func updateUserLocation() {
@@ -32,6 +34,15 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
         }
         locationManager.desiredAccuracy = kCLLocationAccuracyBest
         locationManager.distanceFilter = kCLDistanceFilterNone
+    }
+    
+    func requestData() {
+        Alamofire.request(.GET, "http://facile.reyboz.it/api.php")
+            .responseJSON { response in
+                debugPrint(response)
+                
+                
+        }
     }
     
     override func didReceiveMemoryWarning() {
