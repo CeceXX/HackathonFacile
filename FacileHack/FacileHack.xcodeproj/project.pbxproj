@@ -14,6 +14,7 @@
 		1DBC310F1BF7806700A0FDBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DBC310D1BF7806700A0FDBB /* LaunchScreen.storyboard */; };
 		1DBC311A1BF7806800A0FDBB /* FacileHackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBC31191BF7806800A0FDBB /* FacileHackTests.swift */; };
 		1DBC31251BF7806800A0FDBB /* FacileHackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBC31241BF7806800A0FDBB /* FacileHackUITests.swift */; };
+		72F0241ED7CC16E409BB33FC /* Pods_FacileHack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93654819FACDF8CE2173C0AD /* Pods_FacileHack.framework */; };
 		EB8497921BF7859D00891B7F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB8497911BF7859D00891B7F /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +49,9 @@
 		1DBC31201BF7806800A0FDBB /* FacileHackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacileHackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DBC31241BF7806800A0FDBB /* FacileHackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacileHackUITests.swift; sourceTree = "<group>"; };
 		1DBC31261BF7806800A0FDBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62980325D0453A280F783888 /* Pods-FacileHack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FacileHack.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FacileHack/Pods-FacileHack.debug.xcconfig"; sourceTree = "<group>"; };
+		7443B4AE22620AB8674853EB /* Pods-FacileHack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FacileHack.release.xcconfig"; path = "Pods/Target Support Files/Pods-FacileHack/Pods-FacileHack.release.xcconfig"; sourceTree = "<group>"; };
+		93654819FACDF8CE2173C0AD /* Pods_FacileHack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FacileHack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB8497911BF7859D00891B7F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -57,6 +61,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB8497921BF7859D00891B7F /* MapKit.framework in Frameworks */,
+				72F0241ED7CC16E409BB33FC /* Pods_FacileHack.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +90,8 @@
 				1DBC31181BF7806800A0FDBB /* FacileHackTests */,
 				1DBC31231BF7806800A0FDBB /* FacileHackUITests */,
 				1DBC31021BF7806700A0FDBB /* Products */,
+				931748863AEC05AEC69FFAAD /* Pods */,
+				5964806172A845A80E9C80BB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -129,6 +136,23 @@
 			path = FacileHackUITests;
 			sourceTree = "<group>";
 		};
+		5964806172A845A80E9C80BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93654819FACDF8CE2173C0AD /* Pods_FacileHack.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		931748863AEC05AEC69FFAAD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				62980325D0453A280F783888 /* Pods-FacileHack.debug.xcconfig */,
+				7443B4AE22620AB8674853EB /* Pods-FacileHack.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -136,9 +160,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1DBC31291BF7806800A0FDBB /* Build configuration list for PBXNativeTarget "FacileHack" */;
 			buildPhases = (
+				D868162C20B10E8C8F08BC73 /* Check Pods Manifest.lock */,
 				1DBC30FD1BF7806700A0FDBB /* Sources */,
 				1DBC30FE1BF7806700A0FDBB /* Frameworks */,
 				1DBC30FF1BF7806700A0FDBB /* Resources */,
+				013AB95472342C97401CC27D /* Embed Pods Frameworks */,
+				D77774EE3CEAA7E55FDCC329 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -259,6 +286,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		013AB95472342C97401CC27D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FacileHack/Pods-FacileHack-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D77774EE3CEAA7E55FDCC329 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FacileHack/Pods-FacileHack-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D868162C20B10E8C8F08BC73 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1DBC30FD1BF7806700A0FDBB /* Sources */ = {
@@ -406,6 +481,7 @@
 		};
 		1DBC312A1BF7806800A0FDBB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62980325D0453A280F783888 /* Pods-FacileHack.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FacileHack/Info.plist;
@@ -418,6 +494,7 @@
 		};
 		1DBC312B1BF7806800A0FDBB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7443B4AE22620AB8674853EB /* Pods-FacileHack.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FacileHack/Info.plist;

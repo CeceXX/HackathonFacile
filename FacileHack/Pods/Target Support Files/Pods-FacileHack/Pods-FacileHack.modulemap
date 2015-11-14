@@ -1,0 +1,6 @@
+framework module Pods_FacileHack {
+  umbrella header "Pods-FacileHack-umbrella.h"
+
+  export *
+  module * { export * }
+}

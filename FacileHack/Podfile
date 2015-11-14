@@ -1,0 +1,15 @@
+platform :ios, '8.0'
+use_frameworks!
+
+target 'FacileHack' do
+pod 'Alamofire', '~> 3.0'
+end
+
+target 'FacileHackTests' do
+
+end
+
+target 'FacileHackUITests' do
+
+end
+
