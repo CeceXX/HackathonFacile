@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DBC31051BF7806700A0FDBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBC31041BF7806700A0FDBB /* AppDelegate.swift */; };
+		1DBC31071BF7806700A0FDBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBC31061BF7806700A0FDBB /* ViewController.swift */; };
+		1DBC310A1BF7806700A0FDBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DBC31081BF7806700A0FDBB /* Main.storyboard */; };
+		1DBC310C1BF7806700A0FDBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DBC310B1BF7806700A0FDBB /* Assets.xcassets */; };
+		1DBC310F1BF7806700A0FDBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DBC310D1BF7806700A0FDBB /* LaunchScreen.storyboard */; };
+		1DBC311A1BF7806800A0FDBB /* FacileHackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBC31191BF7806800A0FDBB /* FacileHackTests.swift */; };
+		1DBC31251BF7806800A0FDBB /* FacileHackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBC31241BF7806800A0FDBB /* FacileHackUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1DBC31161BF7806800A0FDBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DBC30F91BF7806700A0FDBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DBC31001BF7806700A0FDBB;
+			remoteInfo = FacileHack;
+		};
+		1DBC31211BF7806800A0FDBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DBC30F91BF7806700A0FDBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DBC31001BF7806700A0FDBB;
+			remoteInfo = FacileHack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1DBC31011BF7806700A0FDBB /* FacileHack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacileHack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DBC31041BF7806700A0FDBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1DBC31061BF7806700A0FDBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1DBC31091BF7806700A0FDBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1DBC310B1BF7806700A0FDBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1DBC310E1BF7806700A0FDBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1DBC31101BF7806700A0FDBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DBC31151BF7806800A0FDBB /* FacileHackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacileHackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DBC31191BF7806800A0FDBB /* FacileHackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacileHackTests.swift; sourceTree = "<group>"; };
+		1DBC311B1BF7806800A0FDBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DBC31201BF7806800A0FDBB /* FacileHackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacileHackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DBC31241BF7806800A0FDBB /* FacileHackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacileHackUITests.swift; sourceTree = "<group>"; };
+		1DBC31261BF7806800A0FDBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DBC30FE1BF7806700A0FDBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DBC31121BF7806800A0FDBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DBC311D1BF7806800A0FDBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DBC30F81BF7806700A0FDBB = {
+			isa = PBXGroup;
+			children = (
+				1DBC31031BF7806700A0FDBB /* FacileHack */,
+				1DBC31181BF7806800A0FDBB /* FacileHackTests */,
+				1DBC31231BF7806800A0FDBB /* FacileHackUITests */,
+				1DBC31021BF7806700A0FDBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1DBC31021BF7806700A0FDBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DBC31011BF7806700A0FDBB /* FacileHack.app */,
+				1DBC31151BF7806800A0FDBB /* FacileHackTests.xctest */,
+				1DBC31201BF7806800A0FDBB /* FacileHackUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DBC31031BF7806700A0FDBB /* FacileHack */ = {
+			isa = PBXGroup;
+			children = (
+				1DBC31041BF7806700A0FDBB /* AppDelegate.swift */,
+				1DBC31061BF7806700A0FDBB /* ViewController.swift */,
+				1DBC31081BF7806700A0FDBB /* Main.storyboard */,
+				1DBC310B1BF7806700A0FDBB /* Assets.xcassets */,
+				1DBC310D1BF7806700A0FDBB /* LaunchScreen.storyboard */,
+				1DBC31101BF7806700A0FDBB /* Info.plist */,
+			);
+			path = FacileHack;
+			sourceTree = "<group>";
+		};
+		1DBC31181BF7806800A0FDBB /* FacileHackTests */ = {
+			isa = PBXGroup;
+			children = (
+				1DBC31191BF7806800A0FDBB /* FacileHackTests.swift */,
+				1DBC311B1BF7806800A0FDBB /* Info.plist */,
+			);
+			path = FacileHackTests;
+			sourceTree = "<group>";
+		};
+		1DBC31231BF7806800A0FDBB /* FacileHackUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1DBC31241BF7806800A0FDBB /* FacileHackUITests.swift */,
+				1DBC31261BF7806800A0FDBB /* Info.plist */,
+			);
+			path = FacileHackUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DBC31001BF7806700A0FDBB /* FacileHack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DBC31291BF7806800A0FDBB /* Build configuration list for PBXNativeTarget "FacileHack" */;
+			buildPhases = (
+				1DBC30FD1BF7806700A0FDBB /* Sources */,
+				1DBC30FE1BF7806700A0FDBB /* Frameworks */,
+				1DBC30FF1BF7806700A0FDBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FacileHack;
+			productName = FacileHack;
+			productReference = 1DBC31011BF7806700A0FDBB /* FacileHack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1DBC31141BF7806800A0FDBB /* FacileHackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DBC312C1BF7806800A0FDBB /* Build configuration list for PBXNativeTarget "FacileHackTests" */;
+			buildPhases = (
+				1DBC31111BF7806800A0FDBB /* Sources */,
+				1DBC31121BF7806800A0FDBB /* Frameworks */,
+				1DBC31131BF7806800A0FDBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DBC31171BF7806800A0FDBB /* PBXTargetDependency */,
+			);
+			name = FacileHackTests;
+			productName = FacileHackTests;
+			productReference = 1DBC31151BF7806800A0FDBB /* FacileHackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1DBC311F1BF7806800A0FDBB /* FacileHackUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DBC312F1BF7806800A0FDBB /* Build configuration list for PBXNativeTarget "FacileHackUITests" */;
+			buildPhases = (
+				1DBC311C1BF7806800A0FDBB /* Sources */,
+				1DBC311D1BF7806800A0FDBB /* Frameworks */,
+				1DBC311E1BF7806800A0FDBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DBC31221BF7806800A0FDBB /* PBXTargetDependency */,
+			);
+			name = FacileHackUITests;
+			productName = FacileHackUITests;
+			productReference = 1DBC31201BF7806800A0FDBB /* FacileHackUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DBC30F91BF7806700A0FDBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Team;
+				TargetAttributes = {
+					1DBC31001BF7806700A0FDBB = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					1DBC31141BF7806800A0FDBB = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 1DBC31001BF7806700A0FDBB;
+					};
+					1DBC311F1BF7806800A0FDBB = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 1DBC31001BF7806700A0FDBB;
+					};
+				};
+			};
+			buildConfigurationList = 1DBC30FC1BF7806700A0FDBB /* Build configuration list for PBXProject "FacileHack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1DBC30F81BF7806700A0FDBB;
+			productRefGroup = 1DBC31021BF7806700A0FDBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DBC31001BF7806700A0FDBB /* FacileHack */,
+				1DBC31141BF7806800A0FDBB /* FacileHackTests */,
+				1DBC311F1BF7806800A0FDBB /* FacileHackUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DBC30FF1BF7806700A0FDBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DBC310F1BF7806700A0FDBB /* LaunchScreen.storyboard in Resources */,
+				1DBC310C1BF7806700A0FDBB /* Assets.xcassets in Resources */,
+				1DBC310A1BF7806700A0FDBB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DBC31131BF7806800A0FDBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DBC311E1BF7806800A0FDBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DBC30FD1BF7806700A0FDBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DBC31071BF7806700A0FDBB /* ViewController.swift in Sources */,
+				1DBC31051BF7806700A0FDBB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DBC31111BF7806800A0FDBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DBC311A1BF7806800A0FDBB /* FacileHackTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DBC311C1BF7806800A0FDBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DBC31251BF7806800A0FDBB /* FacileHackUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1DBC31171BF7806800A0FDBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DBC31001BF7806700A0FDBB /* FacileHack */;
+			targetProxy = 1DBC31161BF7806800A0FDBB /* PBXContainerItemProxy */;
+		};
+		1DBC31221BF7806800A0FDBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DBC31001BF7806700A0FDBB /* FacileHack */;
+			targetProxy = 1DBC31211BF7806800A0FDBB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1DBC31081BF7806700A0FDBB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DBC31091BF7806700A0FDBB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1DBC310D1BF7806700A0FDBB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DBC310E1BF7806700A0FDBB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DBC31271BF7806800A0FDBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1DBC31281BF7806800A0FDBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DBC312A1BF7806800A0FDBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FacileHack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.team.FacileHack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1DBC312B1BF7806800A0FDBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FacileHack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.team.FacileHack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1DBC312D1BF7806800A0FDBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FacileHackTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.team.FacileHackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FacileHack.app/FacileHack";
+			};
+			name = Debug;
+		};
+		1DBC312E1BF7806800A0FDBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FacileHackTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.team.FacileHackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FacileHack.app/FacileHack";
+			};
+			name = Release;
+		};
+		1DBC31301BF7806800A0FDBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FacileHackUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.team.FacileHackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FacileHack;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1DBC31311BF7806800A0FDBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FacileHackUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.team.FacileHackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FacileHack;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DBC30FC1BF7806700A0FDBB /* Build configuration list for PBXProject "FacileHack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DBC31271BF7806800A0FDBB /* Debug */,
+				1DBC31281BF7806800A0FDBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DBC31291BF7806800A0FDBB /* Build configuration list for PBXNativeTarget "FacileHack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DBC312A1BF7806800A0FDBB /* Debug */,
+				1DBC312B1BF7806800A0FDBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1DBC312C1BF7806800A0FDBB /* Build configuration list for PBXNativeTarget "FacileHackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DBC312D1BF7806800A0FDBB /* Debug */,
+				1DBC312E1BF7806800A0FDBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1DBC312F1BF7806800A0FDBB /* Build configuration list for PBXNativeTarget "FacileHackUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DBC31301BF7806800A0FDBB /* Debug */,
+				1DBC31311BF7806800A0FDBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1DBC30F91BF7806700A0FDBB /* Project object */;
+}
